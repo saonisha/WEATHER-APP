@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MINE -->
+    <!-- <div class="container">
+
+        <div class="search_section">
+            <input type="text" class="search_bar">
+            <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+
+        <div class="weather_img"> <img src="images/clear.png" /> </div>
+        <div class="temp">22 degree</div>
+        <div class="place">Bengaluru</div>
+
+        <div class="footer">
+                <div class="box">
+                    <img src="images/humidity.png" id="humidity_img"/>
+                    <div class="info_container">
+                        <div class="data">53%</div>
+                        <div class="subtitle">Humidity</div>
+                    </div>
+                    
+                </div>
+                <div class="box" >
+                    <img src="images/wind.png" id="windspeed_img" />
+                    <div class="info_container">
+                        <div class="data">5.66km/h</div>
+                        <div class="subtitle">Wind Speed</div>
+                    </div>
+                    
+                </div>
+        </div>
+        
+    </div> -->
+
+     <!-- COPIED -->
+      <div class="card">
+       <!-- has 2 divs : SEARCH and WEATHER -->
+
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button>
+             <img src="images/search.png" />
+             </button>
+        </div>
+
+        <!-- <div class="error">
+            <p>Invalid City Name !!</p>
+        </div> -->
+
+        <div class="weather">
+
+            <!-- has an img tag, h1, h2, div(details) -->
+            <img src="images/clear.png" class="weather_icon" />
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            
+            <div class="details">
+                <!-- col 1 -->
+                <div class="col">
+                    <img src="images/humidity.png" />
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <!-- col 2 -->
+                <div class="col">
+                    <img src="images/wind.png" />
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+      </div>
+    
+    <!-- <script>    
+      
+    </script> -->
+    <script src="weather.js"></script>
+</body>
+</html>
