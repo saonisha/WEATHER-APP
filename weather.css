@@ -119,6 +119,8 @@ img{
     
 } */
 
+
+
 *{
     margin:0;
     padding:0;
@@ -133,12 +135,21 @@ body{
     /* height:100vh;
     width:100vw; */
     background:#222;
+    
 
 }
 .card{
     height:75%;
     max-width:400px;
     background: linear-gradient(135deg,#00feba,#5b548a);
+    /* background: linear-gradient(45deg,#fe0000,#ffd500); */
+    /* background:linear-gradient(135deg,white,skyblue,rgb(33, 33, 95)); */
+    /* background:linear-gradient(175deg,#eeebe0,#f5e57e); */
+    /* background:linear-gradient(175deg,#eeebe0,#f5e57e,orange);  */
+    /* background:linear-gradient(-185deg,#eeebe0,rgb(155, 153, 153),rgb(180, 184, 151)); /*
+    /* HAZE */  
+       /* background:linear-gradient(-185deg,rgb(141, 196, 248),skyblue,rgb(187, 237, 240),rgb(195, 226, 247),rgb(207, 207, 238),rgb(154, 154, 221),rgb(117, 117, 196));  */
+    /*RAIN */
     color:white;
     /* margin:50px auto ; */
     margin:100px auto 0;
